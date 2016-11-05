@@ -41,3 +41,6 @@ service php5-fpm restart
 apt-get install -y nginx
 cp nginx/default /etc/nginx/sites-available
 service nginx restart
+
+# Install wordpress
+./wordpress.sh
